@@ -52,6 +52,7 @@ El modelo establece relaciones entre las tablas mediante identificadores, evitan
 Se desarrollaron consultas para responder preguntas relevantes del negocio:
 
 - Resumen ejecutivo mensual: facturación, cantidad de pedidos y ticket promedio.
+  * Alcance temporal del análisis: El resumen ejecutivo mensual presentado corresponde a marzo. Por lo tanto, sus indicadores describen ese período específico y no permiten establecer tendencias de ventas anuales sin incorporar datos de otros meses.
 - Ranking de productos según unidades vendidas y facturación generada.
 - Identificación de clientes sin compras.
 - Identificación de productos sin ventas.
