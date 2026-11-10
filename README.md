@@ -56,7 +56,7 @@ Se desarrollaron consultas para responder preguntas relevantes del negocio:
 - Identificación de clientes sin compras.
 - Identificación de productos sin ventas.
 - Integración de ventas, clientes, productos y categorías mediante JOIN.
-- Comparación de facturación entre dos períodos utilizando UNION ALL.
+- Comparación de facturación entre dos períodos utilizando UNION ALL. Aclaración: las categorías «Primer período» y «Segundo período» se utilizan para comparar dos intervalos de fechas. No representan canales de venta reales.
 
 ## Modelo y análisis en Power BI
 
