@@ -56,7 +56,10 @@ Se desarrollaron consultas para responder preguntas relevantes del negocio:
 - Identificación de clientes sin compras.
 - Identificación de productos sin ventas.
 - Integración de ventas, clientes, productos y categorías mediante JOIN.
-- Comparación de facturación entre dos períodos utilizando UNION ALL. Aclaración: las categorías «Primer período» y «Segundo período» se utilizan para comparar dos intervalos de fechas. No representan canales de venta reales.
+- Comparación de facturación entre dos períodos utilizando UNION ALL. 
+
+- Aclaración UNION ALL: las categorías «Primer período» y «Segundo período» se utilizan para comparar dos intervalos de fechas. No representan canales de venta reales.
+- Resultado de las consultas de control: En los datos iniciales del proyecto, las consultas LEFT JOIN no identificaron clientes sin compras ni productos sin ventas. Este resultado corresponde al conjunto de datos analizado y no implica que estas situaciones no puedan presentarse en períodos futuros.
 
 ## Modelo y análisis en Power BI
 
